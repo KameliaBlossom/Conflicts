@@ -1,0 +1,17 @@
+Index: Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// See https://aka.ms/new-console-template for more information\r\nConsole.WriteLine(\"Hello, World!\");\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Program.cs b/Program.cs
+--- a/Program.cs	(revision 7a4fb73e09edb70c2b022a184e759f1aa4fbebd7)
++++ b/Program.cs	(date 1732388608125)
+@@ -1,2 +1,5 @@
+ // See https://aka.ms/new-console-template for more information
++
+ Console.WriteLine("Hello, World!");
++
++Console.WriteLine("Press any key to exit...");
+\ No newline at end of file
